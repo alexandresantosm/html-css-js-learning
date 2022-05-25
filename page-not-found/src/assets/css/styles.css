@@ -1,0 +1,51 @@
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --header-height: 3.5rem;
+
+  /*======== Colors ========*/
+  --primary-color: hsl(38, 69%, 59%);
+  --text-color: hsl(38, 8%, 8%);
+
+  /*======== Font and Typography ========*/
+  --body-font: 'Space Grotesk', Arial, Helvetica, sans-serif;
+  --smaller-font-size: 0.75rem;
+  --normal-font-size: 0.938rem;
+  --biggest-font-size: 2.375rem;
+}
+
+/*======== Responsive Typography ========*/
+
+@media screen and (min-width: 1024px) {
+  :root {
+    --smaller-font-size: 5rem;
+    --normal-font-size: 1rem;
+    --biggest-font-size: 2.375rem;
+  }
+}
+
+/*=============== BASE ===============*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
