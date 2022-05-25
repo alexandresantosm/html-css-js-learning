@@ -1,18 +1,22 @@
+<div align="center">
+  <img src="screenshot/screenshot-laptop.png" alt="Text Hover in laptop devices" width= "640px" height="400px" object-fit="cover"/>
+</div>
+
+<br>
+
 # Text Hover
 
-Design of a text hover using only HTML and CSS.
+Design landing page where text appears when givin focus using only HTML and CSS.
 
-## Preview
-
----
-
-<!-- ![Text Hover]() -->
+<br>
 
 ## Table of Contents
 
 ---
 
 • [Prerequisites](#prerequisites) • [Technology](#technology) • [Screen Shots](#screen-shots) • [Author](#author) • [License](#license)
+
+<br>
 
 ## Prerequisites
 
@@ -27,6 +31,8 @@ Before starting, you will need to have the following tolls installed on your mac
   - [Microsoft Edge](https://www.microsoft.com/pt-br/edge)
 - Besides, it's good to have an editor to work with the code like: [Visual Studio Code](https://code.visualstudio.com/)
 
+<br>
+
 ## Technology
 
 ---
@@ -34,21 +40,59 @@ Before starting, you will need to have the following tolls installed on your mac
 - [HTML5](https://html.com/html5/)
 - [CSS3](https://www.w3schools.com/Css/)
 
-<!--
+<br>
 
 ## Screen Shots
 
 ---
 
+### Laptop
+
+<br>
+
 - Text Hover
 
-![Text Hover](screenshot/screenshot-menu.png)
+<img src="screenshot/screenshot-laptop.png" alt="Text Hover in laptop devices" width= "640px" height="400px" object-fit="cover"/>
+
+<br>
 
 - Effect Hover in the Text Hover
 
-![Effect Hover in the Text Hover](screenshot/screenshot-menu-hover.png)
+<img src="screenshot/screenshot-laptop.png" alt="Text Hover with effect hover in laptop devices" width= "640px" height="400px" object-fit="cover"/>
 
--->
+<br>
+
+### Tablet
+
+<br>
+
+- Text Hover
+
+<img src="screenshot/screenshot-tablet.png" alt="Text Hover in tablet devices" width= "405px" height="540px" object-fit="cover"/>
+
+<br>
+
+- Effect Hover in the Text Hover
+
+<img src="screenshot/screenshot-tablet.png" alt="Text Hover with effect hover in tablet devices" width= "405px" height="540px" object-fit="cover"/>
+
+<br>
+
+### Mobile
+
+<br>
+
+- Text Hover
+
+<img src="screenshot/screenshot-mobile.png" alt="Text Hover in mobile devices" width= "160px" height="714px" object-fit="cover"/>
+
+<br>
+
+- Effect Hover in the Text Hover
+
+<img src="screenshot/screenshot-mobile-hover.png" alt="Text Hover with effect hover in mobile devices" width= "160px" height="714px" object-fit="cover"/>
+
+<br>
 
 ## Author
 
@@ -58,12 +102,12 @@ Before starting, you will need to have the following tolls installed on your mac
 | :-------------------------------------------------------------------------------------------------------------------------: |
 |                                  [Alexandre Menezes](https://github.com/alexandresantosm)                                   |
 
-Designed with ❤️ by Alexandre Menezes. 👋🏽 Contact!
+Designed with ❤️ by Alexandre Menezes.
 
-[![Twitter Badge](https://img.shields.io/badge/-@alesanezes-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/alesanezes)](https://twitter.com/alesanezes) [![Linkedin Badge](https://img.shields.io/badge/-Alexandre Menezes-blue?style=flat-square =Linkedin =white =https://www.linkedin.com/in/alexandresmenezes/)](https://www.linkedin.com/in/alexandresmenezes/)
+<br>
 
 ## License
 
 ---
 
-Licensed under [License MIT](./LICENSE.md)
+Licensed under [MIT License](./LICENSE.md).
