@@ -59,3 +59,67 @@ img {
 .main {
   overflow: hidden; /* For the animations ScrollReveal */
 }
+
+/*=============== HEADER & NAV ===============*/
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.nav {
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo,
+.nav__toggle__menu {
+  color: var(--text-color);
+  display: inline-flex;
+}
+
+.nav__logo {
+  font-weight: bold;
+}
+
+.nav__toggle__menu,
+.nav__menu__close {
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .nav__menu {
+    position: fixed;
+    background-color: var(--primary-color);
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5rem 0 4rem;
+    border-radius: 0 0 1.5rem 1.5rem;
+    box-shadow: 0 2px 4px hsla(38, 4%, 15%, 0.15);
+    transition: 0.4s;
+  }
+}
+
+.nav__menu__list {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.nav__menu__link {
+  color: var(--text-color);
+}
+
+.nav__menu__close {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+}
