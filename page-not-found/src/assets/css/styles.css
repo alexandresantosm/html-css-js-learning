@@ -55,3 +55,7 @@ img {
   max-width: 1024px;
   margin-inline: 1.5rem;
 }
+
+.main {
+  overflow: hidden; /* For the animations ScrollReveal */
+}
