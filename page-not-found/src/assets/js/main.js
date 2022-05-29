@@ -20,3 +20,14 @@ if (navMenuClose) {
 function closeMenu() {
   navMenu.classList.remove('show-menu')
 }
+
+/*=============== REMOVE MENU MOBILE ===============*/
+const navMenuLinks = document.querySelectorAll('.nav__menu__link')
+
+navMenuLinks.forEach(itemMenuLink =>
+  itemMenuLink.addEventListener('click', menuLinkAction)
+)
+
+function menuLinkAction() {
+  closeMenu()
+}
